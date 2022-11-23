@@ -1,9 +1,8 @@
 #+title: reagent-custom-tags-compiler
 #+author: C.J. Price
 
-* reagent-custom-tags-compiler
 A snippet for including custom tags for your reagent components (all forms).
-Take a look at `src/main/reagent-custom-tags-compiler.cljs` for code and
+Take a look at ~src/main/reagent-custom-tags-compiler.cljs~ for code and
 explanation.
 
 For reagent 1.1.1
