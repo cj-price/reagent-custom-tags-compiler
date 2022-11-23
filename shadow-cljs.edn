@@ -1,0 +1,14 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[reagent "1.1.1"]]
+
+ :dev-http {3449 "public"}
+
+ :builds
+ {:dev {:target :browser
+        :modules {:main {:init-fn reagent-custom-tags-compiler/init}}}}}
